@@ -1,0 +1,19 @@
+{
+  "name": "mean-project",
+  "version": "1.0.0",
+  "description": "MEAN project for prectice",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test",
+    "start":"node index"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "assert": "^1.4.1",
+    "mocha": "^3.2.0",
+    "mongodb": "^2.2.22",
+    "mongoose": "^4.8.2",
+    "underscore": "^1.8.3"
+  }
+}
