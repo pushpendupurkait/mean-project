@@ -3,8 +3,12 @@
   "version": "1.0.0",
   "description": "MEAN project for prectice",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pushpendupurkait/mean-project.git"
+  },
   "scripts": {
-    "test": "mocha test",
+    "test": "find ./test -name '*.js' | xargs mocha -R spec",
     "start": "node index"
   },
   "author": "",
@@ -12,9 +16,12 @@
   "dependencies": {
     "assert": "^1.4.1",
     "express": "^4.14.1",
+    "http-status": "^1.0.1",
     "mocha": "^3.2.0",
     "mongodb": "^2.2.22",
     "mongoose": "^4.8.2",
-    "underscore": "^1.8.3"
+    "superagent": "^3.4.1",
+    "underscore": "^1.8.3",
+    "wagner-core": "^0.2.0"
   }
 }
